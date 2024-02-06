@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+     background-color: #161515;
+     width: 100%;
+     height: 120%;
+} 
+
+
+#Calculater{
+    width: 400px;
+    height: 550px;
+   margin-left: 480px;
+   margin-top: 50px;
+    border-radius: 12px;
+    border: 1px solid rgb(211, 206, 206);
+    background: white;
+    box-shadow:  0px 3px 10px #ffffff ;
+                
+}
+#name{
+ 
+    font-size: 25px;
+    font-style: italic;
+    margin-left: 10px;
+    font-weight: 400;
+    /* letter-spacing: 0.05em; */
+}
+#display{
+    width: 93%;
+    margin: 10px;
+    font-size: 30px;
+    height: 60px;
+    border:1px solid #dbd5d5;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.205),inset -20px -20px 40px rgba(255, 255, 255, 0.719);
+    text-align: right;
+    /* margin-right: 15px; */
+    background: transparent;
+
+}
+.button_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button{
+    height:70px ;
+    width: 80px;
+    margin: 7px;
+    border-radius: 5px;
+    font-size: 30px;
+    border: 1px solid white;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514),inset -5px -5px 10px rgba(255, 255, 255, 0.719);
+    
+}
+.col{
+    height:70px ;
+    width: 80px;
+    margin: 7px;
+    border-radius: 5px;
+    background-color: rgb(24, 23, 23);
+    color: white;
+    cursor: pointer;
+    font-size: 35px;
+    border: 1px solid rgb(34, 33, 33);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514),inset -5px -5px 10px rgba(29, 28, 28, 0.719);
+
+}
+.col:active{
+    background-color: rgb(231, 224, 224);
+    color: black;
+    border: 1px solid rgb(211, 206, 206);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514),inset -5px -5px 10px rgba(255, 255, 255, 0.719);
+
+
+}
+.result{
+    margin-top: 7px;
+    width: 270px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(211, 168, 26);
+    background-color: rgb(228, 178, 15);
+    cursor: pointer;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.514),inset -10px -10px 30px rgba(236, 159, 17, 0.719);
+
+}
+.result:active{
+    border: 1px solid rgb(34, 33, 33);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514),inset -5px -5px 10px rgba(29, 28, 28, 0.719);
+    color: white;
+    background-color: rgb(24, 23, 23);
+}
+
+.button:active{
+    border: 1px solid rgb(34, 33, 33);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514),inset -5px -5px 10px rgba(29, 28, 28, 0.719);
+    color: white;
+    background-color: rgb(24, 23, 23);
+}
+.cancel{
+    background-color: rgb(241, 20, 20);
+    border: 1px solid rgb(230, 23, 23);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514),inset -5px -5px 10px rgba(226, 23, 23, 0.719);
+
+}
+
+.del{
+    height:70px ;
+    width: 80px;
+    margin-top: 6px;
+    margin-left: 12px;
+    
+    border-radius: 5px;
+    background-color: rgb(85, 230, 42);
+    color: rgb(5, 5, 5);
+    cursor: pointer;
+    font-size: 30px;
+    border: 1px solid rgb(75, 211, 48);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514),inset -5px -5px 10px rgba(38, 201, 46, 0.719);
+
+}
+.del:active{
+    border: 1px solid rgb(34, 33, 33);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514),inset -5px -5px 10px rgba(29, 28, 28, 0.719);
+    color: white;
+    background-color: rgb(24, 23, 23);
+
+
+}
